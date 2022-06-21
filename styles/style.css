@@ -89,6 +89,7 @@ body {
     min-height: 100%;
     text-align: center;
     background-color: gray;
+    color: #e5e7ec;
 }
 
 .center { 
@@ -102,4 +103,37 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-illustration-div {
+    display: flex;
+    justify-content:center;
+    gap: 2%;
+}
+
+.info-illustration {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 2px solid;
+    border-radius: 10px;
+}
+
+.info-subtext {
+    width: 150px;
+    height: 150px;
+    padding: 2%;
 }
