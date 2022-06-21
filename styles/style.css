@@ -175,3 +175,49 @@ body {
     font-size: 18px;
     font-weight: 700;
 }
+
+.call {
+    padding: 7% 5%;
+}
+
+.call-div {
+    display: flex;
+    background-color: #3882f6;
+    padding: 2% 5%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.call-head {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-button {
+    width: 30%;
+    text-align: center;
+    
+}
+
+.call-button button {
+    border: #f9faf8 2px solid;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2% 5%;
+}
