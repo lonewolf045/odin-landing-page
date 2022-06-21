@@ -34,7 +34,7 @@ body {
 
 .hero-secondary {
     font-size: 18px;
-    color: #e5e7ec;
+    color: #e5e7eb;
     font-weight: 400;
     margin: 0;
 }
@@ -89,7 +89,7 @@ body {
     min-height: 100%;
     text-align: center;
     background-color: gray;
-    color: #e5e7ec;
+    color: #e5e7eb;
 }
 
 .center { 
@@ -97,6 +97,15 @@ body {
 }
   
 .center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-div {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -136,4 +145,33 @@ body {
     width: 150px;
     height: 150px;
     padding: 2%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: auto;
+    text-align: center;
+    padding: 10% 10%;
+    display: flex;
+    min-height: 150px;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    width: 700px;
+}
+
+.actual-quote {
+    font-style: italic;
+    font-weight:300;
+    font-size: 36px;
+}
+
+.byline {
+    padding-top: 5%;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 700;
 }
